@@ -1,2 +1,2 @@
 # homebrew-tap
-Homebrew formulas by aanduque. brew install aanduque/tap/&lt;formula>
+Homebrew formulas by obrier. brew install obrier/tap/&lt;formula>
