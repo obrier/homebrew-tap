@@ -3,27 +3,27 @@
 class Plugboard < Formula
   desc "claude.ai connector tools as shell commands, at zero model tokens"
   homepage "https://github.com/obrier/plugboard"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/obrier/plugboard/releases/download/v0.1.0/plugboard-0.1.0-darwin-arm64.tar.gz"
-      sha256 "66a388f5fc37b87584a1ebb1fd35032f6804c7dd0daf2f238594ec7360267687"
+      url "https://github.com/obrier/plugboard/releases/download/v0.1.1/plugboard-0.1.1-darwin-arm64.tar.gz"
+      sha256 "fbda91521fd4cd751aec951b5dcdf7b97799e23a7bc24410f81fc63767e10cb7"
     end
     on_intel do
-      url "https://github.com/obrier/plugboard/releases/download/v0.1.0/plugboard-0.1.0-darwin-x64.tar.gz"
-      sha256 "9c505bd9b8cf340c3042cffda556da573e6fc8f47398731d59a502afc9c0b286"
+      url "https://github.com/obrier/plugboard/releases/download/v0.1.1/plugboard-0.1.1-darwin-x64.tar.gz"
+      sha256 "58d23dfe2127855dc97b1a1e20724b6a6c66da636b0b55f48121390422cb65fa"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/obrier/plugboard/releases/download/v0.1.0/plugboard-0.1.0-linux-arm64.tar.gz"
-      sha256 "708198e8ada9bde5f0f2d31b8d5802f6f08ac2a6f37f5a47c9f862568622ba6e"
+      url "https://github.com/obrier/plugboard/releases/download/v0.1.1/plugboard-0.1.1-linux-arm64.tar.gz"
+      sha256 "c372d5aea61702ed2186e11af48e88837b7ec21232d3f3cba1533dfd62d93be2"
     end
     on_intel do
-      url "https://github.com/obrier/plugboard/releases/download/v0.1.0/plugboard-0.1.0-linux-x64.tar.gz"
-      sha256 "0a05c2a086d2cda312d97b99bbccc9fcdbbf081bcc6e4b32bc3eba50210ac07b"
+      url "https://github.com/obrier/plugboard/releases/download/v0.1.1/plugboard-0.1.1-linux-x64.tar.gz"
+      sha256 "10ea2beeb954130e5508863349b851fed0ac0009ef323d5eaccc01a366c4f8bf"
     end
   end
 
