@@ -10,11 +10,11 @@ class Hub < Formula
   on_macos do
     on_arm do
       url "https://github.com/obrier/homebrew-tap/releases/download/hub-v0.1.0/hub-0.1.0-darwin-arm64.zip"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "59a8acfde7666977ce80d529623cf3c547b6b08e5de2d20b97cafb061e77042a"
     end
     on_intel do
       url "https://github.com/obrier/homebrew-tap/releases/download/hub-v0.1.0/hub-0.1.0-darwin-x64.zip"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "772c8a5bf8b72d91aeba6c609a87de517446963a1ce3f003ce0e8c660c2fab70"
     end
   end
 
